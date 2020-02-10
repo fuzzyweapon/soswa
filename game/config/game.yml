@@ -1,0 +1,12 @@
+game:
+    name: "Battlestar Rebooted"
+
+    category: Sci-Fi
+    
+    description: "A private Battlestar Galactica themed MUSH."
+    
+    website: ""
+        
+    public_game: false
+    
+    status: In Development
