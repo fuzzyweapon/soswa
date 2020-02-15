@@ -15,4 +15,8 @@ plugins:
   - fs3skills
   - ranks
   - weather
-  extras: []
+  extras:
+  - compliments
+  - cookies
+  - txt
+  - prefs

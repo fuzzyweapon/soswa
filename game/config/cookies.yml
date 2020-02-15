@@ -1,0 +1,19 @@
+---
+cookies:
+  achievements:
+    cookie_given:
+      type: community
+      message: Gave a drink.
+    cookie_received:
+      type: community
+      message: Received %{count} drink.
+  cookie_award_cron:
+    day_of_week:
+    - Fri
+    hour:
+    - 22
+    minute:
+    - 0
+  cookie_category: Alcoholic Awards
+  shortcuts:
+    beer: cookie
