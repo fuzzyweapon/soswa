@@ -3,7 +3,12 @@ achievements:
   shortcuts:
     achievements: achievement
   types:
-    community: fa-users
+    community: fa-id-badge
     portal: fa-globe
-    fs3: fa-cubes
-    story: fa-book
+    fs3: fa-bullseye
+    story: fa-user-astronaut
+    accommodations: fa-medal
+    qualifications: fa-angle-double-up
+    marks: fa-angle-double-down
+    medical: fa-heartbeat
+    compliments: fa-comments

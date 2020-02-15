@@ -34,6 +34,27 @@ demographics:
   - gender
   - hair
   - physique
+  genders:
+    Male:
+      possessive_pronoun: his
+      subjective_pronoun: he
+      objective_pronoun: him
+      noun: man
+    Female:
+      possessive_pronoun: her
+      subjective_pronoun: she
+      objective_pronoun: her
+      noun: woman
+    Other:
+      possessive_pronoun: their
+      subjective_pronoun: they
+      objective_pronoun: them
+      noun: person
+    Robot:
+      possessive_pronoun: their
+      subjective_pronoun: they
+      objective_pronoun: them
+      noun: robot
   groups:
     Faction:
       desc: Military faction.
@@ -45,16 +66,26 @@ demographics:
       wiki: ''
       desc: The ship is divided into several departments.  See the wiki for details.
       values:
-        Air Wing: Viper and Raptor crews and deckhands. (Officers and Enlisted)
-        Marines: Boots on the ground. (Enlisted only)
-        Support: Support personnel - Deck crew, medical. (Officers and Enlisted)
+        Air Wing: Viper and Raptor crews and deckhands. (Officers & Enlisted)
+        Marines: Boots on the ground. (Officers & Enlisted)
+        Deck: Knuckledraggers. (Enlisted Only, NCO Chief)
+        Medical: Doctor, surgeon, psych, clinic staff, search and rescue, and corpsman
+          embed with Marines (Officers & Enlisted)
+        Other: Chow?
     Colony:
       desc: Your character's home world.
       wiki: ''
       values:
         Aerilon: Bread basket of the colonies.
-        Aquaria: Cold, harsh world popular with tourists.
-        Canceron: Crowded and hot, a developing nation.
+        Aquaria: "> Patron God = Hermes < Twin volcanos in a harsh sea of ice and
+          frigid waters.  Low population.X  Independent and socially tolerant society.
+          \ Democratic.  Bartering system.  Bartering society. Shares orbit with Caprica
+          and Virgon.  Known for its wildly popular Kyros Summerfest festival which
+          features music, dance, theater and epic poetry."
+        Canceron: ") Patron Goddess = Hestia ( Most crowded and hot, wealthy and diverse.
+          \ Has been a democratic nation for over one thousand years and is the largest
+          one in the colonies.  Rich in farmland and minerals.  Classic resorts (i.e.
+          sunny beaches and mountain lodges) and the legendary casinos of Psammos."
         Caprica: Rich center of colonial culture and industry.
         Gemenon: Fundamentalist religion and isolationist people.
         Leonis: Old imperialist empire in decline, still known for culture and fashion.
@@ -118,24 +149,3 @@ demographics:
     actor: demographic/set played by=
     fullname: demographic/set full name=
     playedby: demographic/set played by=
-  genders:
-    Male:
-      possessive_pronoun: his
-      subjective_pronoun: he
-      objective_pronoun: him
-      noun: man
-    Female:
-      possessive_pronoun: her
-      subjective_pronoun: she
-      objective_pronoun: her
-      noun: woman
-    Other:
-      possessive_pronoun: their
-      subjective_pronoun: they
-      objective_pronoun: them
-      noun: person
-    Robot:
-      possessive_pronoun: their
-      subjective_pronoun: they
-      objective_pronoun: them
-      noun: robot

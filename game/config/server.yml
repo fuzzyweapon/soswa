@@ -1,5 +1,5 @@
 server:
-    hostname: bsorion.com
+    hostname: 173.255.215.77
 
     port: 9000
     

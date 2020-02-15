@@ -3,7 +3,7 @@ chargen:
   achievements:
     created_character:
       type: story
-      message: Created a character.
+      message: Entered the galaxy.
   allow_web_submit: true
   app_category: APP
   app_hold_status: HOLD
@@ -14,16 +14,17 @@ chargen:
   - bg %{name}
   - hooks %{name}
   - sheet %{name}
-  approval_message: Congratulations!  Your application has been approved.  Type %xhonstage%xn
-    to go forth and RP.  You may want to customize your character profile on the web
-    portal.
+  approval_message: |-
+    Welcome to the galaxy!  Your application has been approved and you may now go hence and pave your fate.
+    Type %xhonstage%xn to go forth and RP.  You may want to customize your  character profile on the web portal.
   arrivals_category: New Arrivals
-  bg_blurb: A background is your character's backstory or history.  You don''t need
-    to write a novel. Just cover the basics--who you are, why are you here, and anything
-    noteworthy about you. Be sure to explain any unusual skills.
+  bg_blurb: |-
+    A background is your character's backstory or history.  You don''t need to write a novel. Just cover the basics--who you are, why are you here, and anything noteworthy about you. Be sure to explain any unusual skills.
+    Special apps may require more length (e.g. 2-2.5K).  Speak to the head wiz for details.
   demographics_blurb: Demographics record your basic character info.
-  desc_blurb: You can set both your main description, visible when people look at
-    you, and a short description that shows your character at a glance.
+  desc_blurb: |-
+    You can set both your main description, visible when people look at you, and a short description that shows your character at a glance.
+    To check out the multidescer:  help multidescer
   groups_blurb: Groups determine your character's affiliations.
   hooks_blurb: RP Hooks are interesting things about your character that others can
     hook into for RP. This could be an odd personality quirk, a reputation your character

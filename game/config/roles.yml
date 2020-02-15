@@ -1,12 +1,14 @@
 ---
 roles:
+  admin_list_roles:
+  - admin
   default_roles:
   - everyone
   restricted_roles:
   - admin
   - coder
-  admin_list_roles:
-  - admin
+  - storyteller
+  - tester
   shortcuts:
     roles: role
     staff: admin

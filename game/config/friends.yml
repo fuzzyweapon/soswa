@@ -1,8 +1,8 @@
 ---
 friends:
-  shortcuts:
-    friends: friend
   achievements:
     friend_added:
       type: community
-      message: Added a friend.
+      message: Added a pal. Stalk much? :D
+  shortcuts:
+    friends: friend

@@ -1,3 +1,5 @@
-<div class="jumbotron-tagline">A New Breed of MUSH Server</div>
+<div class="jumbotron-tagline">So Say We All</div>
 
-Welcome to AresMUSH!
+Welcome to So Say We all, a private Battlestar Galactica themed MUSH (Reimagined Series).  We start just before the Cylons return to the colonies...
+
+TBD

@@ -1,5 +1,5 @@
 ---
 ooctime:
-  default_timezone: America/New_York
+  default_timezone: America/Los_Angeles
   shortcuts:
     ooctime: time

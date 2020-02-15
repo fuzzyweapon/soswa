@@ -1,12 +1,8 @@
+---
 game:
-    name: "Battlestar Rebooted"
-
-    category: Sci-Fi
-    
-    description: "A private Battlestar Galactica themed MUSH."
-    
-    website: ""
-        
-    public_game: false
-    
-    status: In Development
+  category: Sci-Fi
+  description: A private Battlestar Galactica themed MUSH
+  name: So Say We All
+  public_game: false
+  status: In Development
+  website: ''

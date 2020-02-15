@@ -1,9 +1,27 @@
 ---
 ictime:
-  year_offset: 0
+  day_names:
+  - Solis (Sun)
+  - Lunae (Tue)
+  - Martis (Wed)
+  - Jovis (Thu)
+  - Veneris (Fri)
+  - Saturni (Sat)
   day_offset: 0
-  day_names: []
-  month_names: []
-  time_ratio: 1
   game_start_date: ''
   hour_offset: 0
+  month_names:
+  - Ianuarius (Jan)
+  - Februarius (Feb)
+  - Martius (Mar)
+  - Aprilus (Apr)
+  - Maius (May)
+  - Iunius/Junius (June)
+  - Quintilis (Jly)
+  - Sextilis (Aug)
+  - September (Sep)
+  - October (Oct)
+  - November (Nov)
+  - December (Dec)
+  time_ratio: 1
+  year_offset: 0
