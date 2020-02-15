@@ -1,5 +1,5 @@
 server:
-    hostname: 173.255.215.77
+    hostname: 45.79.91.11
 
     port: 9000
     
@@ -9,7 +9,7 @@ server:
     
     engine_api_port: 4203
     
-    use_https: true
+    use_https: false
     
     certificate_file_path: '/home/ares/certs/fullchain.pem'
     

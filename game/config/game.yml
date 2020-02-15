@@ -1,8 +1,12 @@
----
 game:
-  category: Sci-Fi
-  description: A private Battlestar Galactica themed MUSH
-  name: So Say We All
-  public_game: false
-  status: In Development
-  website: ''
+    name: "So Say We All"
+
+    category: Sci-Fi
+    
+    description: "A private Battlestar Galactica themed MUSH"
+    
+    website: ""
+        
+    public_game: false
+    
+    status: In Development
