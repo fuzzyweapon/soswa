@@ -29,10 +29,10 @@ ranks:
         Master Chief Petty Officer: false
     Marines:
       Officer:
-        Ensign: false
-        Lieutenant Jg: false
-        Lieutenant: false
-        Captain: false
+        Ensign: true
+        Lieutenant Jg: true
+        Lieutenant: true
+        Captain: true
         Major: false
         Colonel: false
         Commander: false

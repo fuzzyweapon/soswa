@@ -73,7 +73,7 @@ website:
     - divider: true
     - title: Colonial Planets
       route: wiki-page
-      id: theme:Colonial Planets
+      id: theme:colonial-planets
     - title: Colonial History
       route: wiki-page
       id: theme:Colonial History

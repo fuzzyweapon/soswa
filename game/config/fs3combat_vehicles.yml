@@ -9,6 +9,7 @@ fs3combat:
       armor: Viper
       weapons:
       - Kew
+      - Sidewinder
       dodge: 1
     Raider:
       description: Cylon Raider space fighter
@@ -22,18 +23,20 @@ fs3combat:
       - Nuke
       dodge: 1
     Raptor:
-      description: Raptor space command and control
+      description: Raptor Multi-mission Vehicle
       pilot_skill: Piloting
-      toughness: 2
+      toughness: 3
       hitloc_chart: Transport
       armor: Raptor
       weapons:
-      - Kew
       - Ecm
-      - Kew
-      - Missile
-      - Talons
-      - Rocket
+      - Harpoon
+      - Bombrack
+      - FFAR AP
+      - FFAR HE
+      - 762 Minigun
+      - Hmg
+      - Maverick
       dodge: 0
     Heavy Raider:
       description: Cylon Heavy Raider space transport/bomber
@@ -81,4 +84,66 @@ fs3combat:
       armor: Aa Battery
       weapons:
       - Missile
+      - 85mm Flak
+      - 762 Minigun
+      dodge: 0
+    Predator:
+      description: Predator Strike Craft
+      pilot_skill: Piloting
+      toughness: 2
+      hitloc_chart: Fighter
+      armor: Viper
+      weapons:
+      - Pred Gun
+      - Ecm
+      - Bombrack
+      - Bombcrack cluster
+      - Maverick
+      - HARM
+      dodge: 3
+    Rhino:
+      description: Rhino heavy lift, gunship, and transport
+      pilot_skill: Piloting
+      hitloc_chart: Transport
+      armor: Rhino
+      weapons:
+      - Ecm
+      - 25mm CG
+      - 40mm Gun
+      - 105mm Gun
+      - 762 Minigun
+      - Hmg
+      - Kew
+      dodge: -2
+    Carballa:
+      description: M6A18 Main Battle Tank. Last gen.
+      pilot_skill: Piloting
+      toughness: 3
+      hitloc_chart: Tank
+      armor: Carballa
+      weapons:
+      - 120mm Gun
+      - Hmg
+      - Lmg
+      dodge: 0
+    Rapier:
+      description: Armored recon vehicle. No transport.
+      pilot_skill: Piloting
+      toughness: 1
+      hitloc_chart: Tank
+      armor: Apc
+      weapons:
+      - 30mm HVC
+      - Lmg
+      dodge: 1
+    Samnite:
+      description: Armored Infantry Fighting Vehicle. 5 passengers.
+      pilot_skill: Piloting
+      toughness: 2
+      hitloc_chart: Tank
+      armor: Apc
+      weapons:
+      - 25mm CG
+      - Hmg
+      - Lmg
       dodge: 0

@@ -10,15 +10,15 @@ demographics:
     value: gender
   - field: group
     width: 20
-    title: Faction
-    value: Faction
+    title: Department
+    value: Department
   - field: group
     width: 20
     title: Position
     value: Position
   demographics:
   - full name
-  - callsign
+  - nickname
   - gender
   - hair
   - eyes
@@ -30,7 +30,7 @@ demographics:
   disable_auto_shortcuts: false
   editable_properties:
   - full name
-  - callsign
+  - nickname
   - gender
   - hair
   - physique
@@ -50,70 +50,99 @@ demographics:
       subjective_pronoun: they
       objective_pronoun: them
       noun: person
-    Robot:
-      possessive_pronoun: their
-      subjective_pronoun: they
-      objective_pronoun: them
-      noun: robot
   groups:
+    Allegiance:
+      desc: |-
+        Which faction with which do you have **public** allegiance?
+        For instance, you can be a Cylon in the Colonial fleet.  In this case you would choose Colonial, choose the Colony they are allegedly from if they have implanted memories or have adopted a planet as their own.
+      wiki: ''
+      values:
+        Colonial: Your public allegiance is to the colonies.
+        Cylon: Your public allegaince is to the cylons.  Currently not open for CG.
+        Other: Do not set unless you have been instructed by staff.
     Faction:
-      desc: Military faction.
+      desc: Faction within the group with which you have public allegiance
       wiki: ''
       values:
-        Navy: Join the fleet, see the worlds.
-        Marines: Semper fi.
-    Department:
-      wiki: ''
-      desc: The ship is divided into several departments.  See the wiki for details.
-      values:
-        Air Wing: Viper and Raptor crews and deckhands. (Officers & Enlisted)
-        Marines: Boots on the ground. (Officers & Enlisted)
-        Deck: Knuckledraggers. (Enlisted Only, NCO Chief)
-        Medical: Doctor, surgeon, psych, clinic staff, search and rescue, and corpsman
-          embed with Marines (Officers & Enlisted)
-        Other: Chow?
+        Navy: Air and space flight, combat, aka all operation.
+        Marines: Ground forces and key ship boarding defense.
+      Department:
+        wiki: ''
+        desc: Typically military based departments.  NCOs are typically allowed and
+          appointed to departments that only have enlisted.  Ask Staff when in doubt!
+        values:
+          Air Wing: Viper and Raptor crews. [Officers Only]
+          Deck: Take care of the fighter ships, hangars, and other various things.
+            [Enlisted]
+          Marines: Boots on the ground (snipers and SF are restricted). [Officers
+            Typically In Leadership Positions and Enlisted]
+          Medicine: All medical personnel, parajumpers (PJs are restricted) including
+            corpsman, even though they bunk and go on missions with Marines. [Officers
+            and Enlisted]
+          Engineering: Both those who work on general ship systems outside of Deck's
+            domain (save for aeronautical craft design). [Officers Only]
+          Sciences: The study of the sciences or locating various signs of life, sources
+            of water, etc. [Typically Officers]
+          Command: This includes all CIC support.  If you work in CIC a la TACCO,
+            Intel, communications officer, etc. [Officers Only]
+          Other: Do not set unless you have been instructed by staff.
     Colony:
-      desc: Your character's home world.
+      desc: Your character's home world, what they think their homeworld is (Cylons),
+        or what homeworld they have pledged personal allegiance to (Cylons).
       wiki: ''
       values:
         Aerilon: Bread basket of the colonies.
-        Aquaria: "> Patron God = Hermes < Twin volcanos in a harsh sea of ice and
-          frigid waters.  Low population.X  Independent and socially tolerant society.
-          \ Democratic.  Bartering system.  Bartering society. Shares orbit with Caprica
-          and Virgon.  Known for its wildly popular Kyros Summerfest festival which
-          features music, dance, theater and epic poetry."
-        Canceron: ") Patron Goddess = Hestia ( Most crowded and hot, wealthy and diverse.
-          \ Has been a democratic nation for over one thousand years and is the largest
-          one in the colonies.  Rich in farmland and minerals.  Classic resorts (i.e.
-          sunny beaches and mountain lodges) and the legendary casinos of Psammos."
+        Aquaria: Cold, harsh world popular with tourists.
+        Canceron: Crowded and hot, a developing nation.
         Caprica: Rich center of colonial culture and industry.
         Gemenon: Fundamentalist religion and isolationist people.
         Leonis: Old imperialist empire in decline, still known for culture and fashion.
         Libran: Neutral colony renowned for fostering inter-colonial cooperation.
         Picon: Water world famous for its beaches and strong navy.
-        Sagittaron: Poor colony, oft-exploited, now carved into several protectorates.
-        Scorpia: Lush jungles and bitter clan warfare. Home to shipyards constructing
-          the Battlestars.
+        Sagittaron: Poor colony,  oft-exploited, now carved into several protectorates.
+        Scorpia: Lush jungles and bitter clan warfare. Home to shipyards used to construct
+          Battlestars.
         Tauron: An up-and-coming socialist republic with a strong agricultural base
           and developing industries.
         Virgon: A monarchy in decline, clinging to old traditions.
     Position:
-      desc: Job.
+      desc: Job.  Positions with an asterisk (*) in the description represent restricted
+        roles and require staff approval.
       wiki: ''
       values:
-        Viper Pilot: Navy Viper pilot.
-        Raptor Pilot: Navy Raptor pilot.
-        Raptor ECO: Navy Raptor Electronic Countermeasures Officer
-        Rifleman: Marine rifleman.
-        Gunner: Marine support/heavy weapons specialist.
-        Combat Engineer: Marine demolitions, construction, maintenance.
-        Recon: Marine scout.
-        Combat Medic: Marine medic.
-        Doctor: Navy doc.
-        Nurse: Navy nurse.
-        Corpsman: Navy medic.
-        Medical Support: Other medical personnel.
-        Deck Crew: Air wing support/maintenance personnel.
+        Viper Pilot: Navy - Viper pilot
+        Raptor Pilot: Navy - Raptor pilot
+        Raptor ECO: Navy - Raptor Electronic Countermeasures Officer
+        Rifleman: Marine - Average rank and file
+        Marksman: Marine - Designated Marksman* - encompasses all 'types' of DMs.  In
+          comparison to snipers, their weapons aren't **as** long range, they don't
+          receive specific sniper level training, but they help take down important
+          targets in the battlefield.
+        Sniper: Marine - Sniper* - What it sounds like.  Snipers work with spotters
+          in pairs.
+        Spotter: 'Marine - Spotter* - Spotters and snipers work in pairs.  The spotter
+          assists in a number of duties not listed here. '
+        JTAC: Marine - Joint Terminal Attack Controller* - directs the action of combat
+          aircraft engaged in close air support and other offensive air operations
+          from a forward position.
+        Gunner: Marine - Support/heavy weapons specialist.  We also include artillery,
+          but usually this is a specialty in and of itself and should be acquired
+          thus via action skill specialties.
+        Combat Engineer: Marine - **Minor** field demolitons, construction, maintenance.
+        Recon: Marine - Reconaissance scout
+        Corpsman: Navy - Battlefield medic that bunks and deploys with Marines
+        Doctor: Navy - Medical doctor who may or may not specialize
+        Surgeon: Navy - Medical doctor who specialized in some kind of surgery
+        Psychiatrist: Navy - Medical doctor who provides psychiatric support (can
+          write prescriptions, not a therapist)
+        Psychologist: Navy - Psychologist or therapist who provides psychological
+          support (cannot write prescriptions, focuses on diagnosis, therapy, and
+          treatment coordination with a psychiatrist)
+        Nurse: Navy - Nurse
+        Parajumper: Navy - Parajumper* - Combat medical search and rescue, typically
+          for downed personnel. Medical training, skilled parachutists, scuba divers
+          and rock climbers, and trained for extreme environments
+        Deck Crew: Navy - Air wing support/maintenance personnel.
         Other: Any other position.
   help_text:
     played by: "%xcplayedby <actor>%xn - Your 'dream casting' for your character."
@@ -123,13 +152,20 @@ demographics:
     eyes: "%xceyes <eye color>%xn"
     skin: "%xcskin <complexion>%xn"
     birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
-    callsign: "%xccallsign <callsign>%xn - Non-pilots may leave blank or enter a nickname."
+    nickname: |-
+      %xcnickname<nickname>%xn - Those that have callsigns set this to callsign.  These are practical in military operations and critical for Pilots and ECOs. Unlike callsigns, Marines may have colloquial nicknames and they are not required for operation in the field.
+      Currently these show up where player aliases are normally shown.  This is just a display bug for us to accommodate alias and nickname as separate concepts.
+      We will handle this post launch, but for now, just let people know in a custom profile field with `profile/add alias=<alias>`
+    colony: |-
+      %xcnickname<colony>%xn - Your character's home world, what they think their homeworld is (Cylons), or what homeworld they have pledged personal allegiance to (Cylons).
+      **Do not** change this after CG unless you have a reason staff would approve of such as a life event for your character.  This is a big deal.
     full name: "%xcfullname <name>%xn - Your character's full name."
   max_age: 65
   min_age: 18
-  nickname_field: callsign
+  nickname_field: nickname
   nickname_format: "%{name} (%{nickname})"
-  private_properties: []
+  private_properties:
+  - admin shared character note
   required_properties:
   - played by
   - hair

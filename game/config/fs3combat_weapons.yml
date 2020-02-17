@@ -1,5 +1,22 @@
 ---
 fs3combat:
+  weapon specials:
+    Ap:
+      description: Armor Piercing Rounds
+      penetration: 2
+    Bipod:
+      description: Bipod Brace
+      recoi: -3
+    Scope:
+      description: Sniper scope
+      accuracy: 2
+    Buckshot:
+      description: Shotgun pellets
+      accuracy: 3
+      penetration: -2
+    Sparring:
+      description: Padded sparring equipment
+      lethality: -50
   weapons:
     Flash Grenade:
       description: Flashbang Hand Grenade which blinds/deafens human targets for 5
@@ -52,9 +69,9 @@ fs3combat:
       has_shrapnel: true
       init_mod: 0
     Missile:
-      description: Guided Anti-Vehicle Missile
+      description: Generic Anti-Vehicle Missile
       skill: Gunnery
-      lethality: 80
+      lethality: 60
       penetration: 17
       weapon_type: Ranged
       is_automatic: false
@@ -271,7 +288,7 @@ fs3combat:
       has_shrapnel: false
       init_mod: 0
     Hmg:
-      description: Heavy machinegun.
+      description: ".50cal heavy machinegun."
       skill: Firearms
       lethality: 20
       penetration: 8
@@ -311,20 +328,230 @@ fs3combat:
       accuracy: 0
       has_shrapnel: false
       init_mod: 0
-  weapon specials:
-    Ap:
-      description: Armor Piercing Rounds
-      penetration: 2
-    Bipod:
-      description: Bipod Brace
-      recoi: -3
-    Scope:
-      description: Sniper scope
+    85mm Flak:
+      description: Flak cannons
+      skill: Gunnery
+      lethality: 1
+      penetration: 8
+      weapon_type: Explosive
+      is_automatic: false
+      ammo: 10
+      recoil: 0
+      damage_type: Physical
+      accuracy: -2
+      has_shrapnel: true
+      init_mod: -2
+    Sidewinder:
+      description: Thrust vectored IR-guided air-to-air missile
+      skill: Gunnery
+      lethality: 80
+      penetration: 17
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 4
+      recoil: 0
+      damage_type: Physical
+      accuracy: 4
+      has_shrapnel: false
+      init_mod: 0
+    Maverick:
+      description: Air-launched anti-tank missile
+      skill: Gunnery
+      lethality: 80
+      penetration: 50
+      weapon_type: Explosive
+      is_automatic: false
+      ammo: 4
+      recoil: 0
+      damage_type: Physical
       accuracy: 2
-    Buckshot:
-      description: Shotgun pellets
+      has_shrapnel: false
+      init_mod: 0
+    HARM:
+      description: High-speed anti-radar missile
+      skill: Gunnery
+      lethality: 50
+      penetration: 15
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 2
+      recoil: 0
+      damage_type: Explosive
       accuracy: 3
-      penetration: -2
-    Sparring:
-      description: Padded sparring equipment
-      lethality: -50
+      has_shrapnel: true
+      init_mod: 0
+    Bombrack:
+      description: A pair of 500-pound bombs.
+      skill: Gunnery
+      lethality: 60
+      penetration: 20
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 3
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 1
+      has_shrapnel: true
+      init_mod: 0
+    FFAR AP:
+      description: Unguided Anti-Vehicle Rockets
+      skill: Gunnery
+      lethality: 0
+      penetration: 9
+      weapon_type: Ranged
+      is_automatic: true
+      ammo: 20
+      recoil: 0
+      damage_type: Physical
+      accuracy: -2
+      has_shrapnel: false
+      init_mod: 0
+    FFAR HE:
+      description: Unguided Anti-Personnel Rocket
+      skill: Gunnery
+      lethality: 40
+      penetration: 8
+      weapon_type: Explosive
+      is_automatic: true
+      Ammo: 20
+      recoil: 0
+      damage_type: Physical
+      accuracy: -2
+      has_shrapnel: false
+      init_mod: 0
+    Pred Gun:
+      description: Nose-mounted anti-tank gun.
+      skill: Gunnery
+      lethality: 5
+      penetration: 25
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 1
+      has_shrapnel: false
+      init_mod: 0
+    120mm Main:
+      description: 120mm HEAT round for tanks.
+      skill: Gunnery
+      lethality: 0
+      penetration: 23
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 2
+      has_shrapnel: true
+      init_mod: 0
+    105mm Gun:
+      description: 105mm cannon used on Rhino gunships.
+      skill: Gunnery
+      lethality: 18
+      penetration: 12
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 0
+      has_shrapnel: true
+      init_mod: 0
+    20mm CG:
+      description: 20mm Chain Gun used on the Rhino and LAV.
+      skill: Gunnery
+      lethality: 15
+      penetration: 14
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 3
+      has_shrapnel: false
+      init_mod: 0
+    762 Minigun:
+      description: 7.62mm miniguns for Raptors and anti-aircraft units.
+      skill: Gunnery
+      lethality: 0
+      penetration: 4
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 1
+      has_shrapnel: false
+      init_mod: 0
+    30mm HVC:
+      description: 30mm high velocity cannon for Infantry Fighting Vehicles.
+      skill: Gunnery
+      lethality: 20
+      penetration: 19
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 2
+      has_shrapnel: false
+      init_mod: 0
+    40mm Gun:
+      description: Bofors 40mm cannon, explosive rounds. Rhino gunships.
+      skill: Gunnery
+      lethality: 5
+      penetration: 9
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 2
+      has_shrapnel: false
+      init_mod: 0
+    Bombrack cluster:
+      description: A pair of AP cluster bombs.
+      skill: Gunnery
+      lethality: 33
+      penetration: 14
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 3
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 1
+      has_shrapnel: true
+      init_mod: 0
+    Harpoon:
+      description: Long range anti-ship missile.
+      skill: Gunnery
+      lethality: 10
+      penetration: 90
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 2
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 1
+      has_shrapnel: false
+      init_mod: 0
+    Karlstov AP:
+      description: 84mm recoilless rifle, AP
+      skill: Gunnery
+      lethality: 20
+      penetration: 20
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 4
+      recoil: 0
+      damage_type: Physical
+      accuracy: 1
+      has_shrapnel: false
+      init_mod: 0
+    Karlstov HE:
+      description: 84mm recoilless rifle, HE
+      skill: Gunnery
+      lethality: 5
+      penetration: 8
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 4
+      recoil: 0
+      damage_type: Explosive
+      accuracy: 1
+      has_shrapnel: true
+      init_mod: 0

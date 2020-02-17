@@ -136,6 +136,40 @@ fs3combat:
         Body: 7
         Controls: 7
         Weapon: 6
+    Predator:
+      description: Predator Vehicle Armor
+      defense: 2
+      protection:
+        Body: 9
+        Engine: 10
+        Tail: 8
+        Wing: 8
+        Weapon: 7
+        Nose: 8
+        Cockpit: 9
+        Controls: 8
+    Carballa:
+      description: Carballa Tank Armor
+      defense: 0
+      protection:
+        Body: 24
+        Engine: 24
+        Weapon: 12
+        Track: 15
+        Side: 17
+        Cabin: 26
+    Rhino:
+      description: Rhino Vehicle Armor
+      defense: 0
+      protection:
+        Body: 12
+        Engine: 12
+        Tail: 8
+        Wing: 8
+        Weapon: 6
+        Nose: 8
+        Cockpit: 8
+        Controls: 9
   armor specials:
     Helmet:
       description: A helmet

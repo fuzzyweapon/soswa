@@ -2,13 +2,14 @@
 ictime:
   day_names:
   - Solis (Sun)
+  - Monen (Mon)
   - Lunae (Tue)
   - Martis (Wed)
   - Jovis (Thu)
   - Veneris (Fri)
   - Saturni (Sat)
   day_offset: 0
-  game_start_date: ''
+  game_start_date: 02/16/2005
   hour_offset: 0
   month_names:
   - Ianuarius (Jan)
@@ -24,4 +25,4 @@ ictime:
   - November (Nov)
   - December (Dec)
   time_ratio: 1
-  year_offset: 0
+  year_offset: -15

@@ -71,8 +71,6 @@ chargen:
         prevent your character from being approved (like forgetting to set your eye
         color).  %xyYellow%xn issues are warnings; they might actually be OK if it
         fits the character concept.
-    sheet:
-      help: sheets
     demographics:
       help: demographics
     groups:
@@ -81,6 +79,9 @@ chargen:
       help: ranks
     background:
       help: backgrounds
+    sheet:
+      help: sheets
+      text: "\\`cg/next` to get started configuring your sheet!"
     abilities:
       help: skills
     desc:

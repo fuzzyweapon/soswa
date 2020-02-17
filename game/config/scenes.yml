@@ -9,7 +9,7 @@ scenes:
       message: Participated in %{count} scenes.
   delete_unshared_scenes: false
   idle_scene_timeout_days: 4
-  include_pose_separator: false
+  include_pose_separator: true
   ooc_color: "%xc"
   room_cleanup_cron:
     minute:
