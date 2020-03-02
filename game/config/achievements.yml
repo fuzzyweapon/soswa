@@ -1,5 +1,24 @@
 ---
 achievements:
+  achievements:
+    first_blood:
+      type: community
+      message: First Blood | FRIENDSHIP!  The first PC to ever be approved!
+    maverick:
+      type: community
+      message: Maverick | Congrats on having the first mav on the server!
+    daddy:
+      type: community
+      message: Daddy | Hit the floor and bow to Daddy
+    ordnance:
+      type: qualifications
+      message: Ordnance Officer | Boom, baby
+    survival:
+      type: qualifications
+      message: Survival Officer | Don't eat that
+    cork:
+      type: community
+      message: Pop the Cork | Participant in the first scene on the server
   shortcuts:
     achievements: achievement
   types:

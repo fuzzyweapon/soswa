@@ -263,7 +263,7 @@ fs3combat:
       init_mod: 0
     Unarmed:
       description: Unarmed
-      skill: Melee
+      skill: Hand To Hand
       lethality: -20
       penetration: 0
       weapon_type: Melee

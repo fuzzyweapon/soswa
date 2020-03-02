@@ -1,3 +1,6 @@
 ---
 custom:
-  shortcuts: {}
+  shortcuts:
+    custom:
+      shortcuts:
+        js: jobs

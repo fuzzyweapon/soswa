@@ -15,6 +15,7 @@ jobs:
   closed_statuses:
   - DONE
   - ARCHIVED
+  - BACKLOG
   default_status: NEW
   open_status: OPEN
   request_category: REQ
@@ -37,6 +38,8 @@ jobs:
   status:
     NEW:
       color: "%xg"
+    BACKLOG:
+      color: "%x246"
     OPEN:
       color: "%xb"
     HOLD:

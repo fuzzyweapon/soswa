@@ -18,6 +18,9 @@ website:
   - theme:*
   - policy:*
   - plot:*
+  - cg:*
+  - template:*
+  - include:*
   sitemap_update_cron:
     hour:
     - 2
@@ -32,13 +35,13 @@ website:
       route: roster
     - title: CG Walkthrough
       route: wiki-page
-      id: cg-walkthrough
+      id: cg:cg-walkthrough
     - title: Policies
       route: wiki-page
-      id: policies:policies
+      id: policy:policies
     - title: FAQ
       route: wiki-page
-      id: policies:FAQ
+      id: policy:faq
   - title: Play
     menu:
     - title: Active Scenes
@@ -59,72 +62,76 @@ website:
     - divider: true
     - title: Play via Web Client
       route: play
+    - divider: true
+    - title: RP Aids
+      route: wiki-page
+      id: theme:rp-aids
   - title: Colonial Theme
     menu:
     - title: Colonials
       route: wiki-page
-      id: theme:Colonials
+      id: theme:colonials
     - title: Colonial Plot
       route: wiki-page
-      id: plot:Colonial Plot
+      id: plot:colonial-plot
     - title: Timeline
       route: wiki-page
-      id: plot:Timeline
+      id: plot:timeline
     - divider: true
     - title: Colonial Planets
       route: wiki-page
       id: theme:colonial-planets
     - title: Colonial History
       route: wiki-page
-      id: theme:Colonial History
+      id: theme:colonial-history
     - title: Colonial Military
       route: wiki-page
-      id: theme:Colonial Military
+      id: theme:colonial-military
     - title: Colonial Government
       route: wiki-page
-      id: theme:Colonial Goverment
+      id: theme:colonial-goverment
     - title: Colonial Culture
       route: wiki-page
-      id: theme:Colonial Culture
+      id: theme:colonial-culture
     - title: Colonial Religion
       route: wiki-page
-      id: theme:Colonial Religion
+      id: theme:colonial-religion
     - title: Colonial Technology
       route: wiki-page
-      id: theme:Colonial Technology
+      id: theme:colonial-technology
   - title: Cylon Theme
     menu:
     - title: Cylons
       route: wiki-page
-      id: theme:Cylons
+      id: theme:cylons
     - title: Cylon Plot
       route: wiki-page
-      id: plot:Cylon Plot
+      id: plot:cylon-plot
     - title: Timeline
       route: wiki-page
-      id: plot:Timeline
+      id: plot:timeline
     - divider: true
     - title: Cylon Planets
       route: wiki-page
-      id: theme:Cylon Planets
+      id: theme:cylon-planets
     - title: Cylon History
       route: wiki-page
-      id: theme:Cylon History
+      id: theme:cylon-history
     - title: Colonial Military
       route: wiki-page
-      id: theme:Colonial Military
+      id: theme:colonial-military
     - title: Cylon Government
       route: wiki-page
-      id: theme:Cylon Goverment
+      id: theme:cylon-goverment
     - title: Cylon Culture
       route: wiki-page
-      id: theme:Cylon Culture
+      id: theme:cylon-culture
     - title: Cylon Religion
       route: wiki-page
-      id: theme:Cylon Religion
+      id: theme:cylon-religion
     - title: Cylon Technology
       route: wiki-page
-      id: theme:Cylon Technology
+      id: theme:cylon-technology
   - title: Directory
     menu:
     - title: Characters

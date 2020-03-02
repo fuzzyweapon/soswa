@@ -4,46 +4,179 @@ fs3skills:
   - name: Alertness
     desc: Noticing things and being aware of your surroundings.
     linked_attr: Perception
-  - name: Athletics
-    desc: General running, jumping, climbing, etc.
-    linked_attr: Brawn
+    specialties:
+    - Visual Space
+    - Visual Ground
+    - Visual Ship
+    - Auditory Ground
+    - Auditory Ship
   - name: Composure
     desc: Coolness under pressure.
     linked_attr: Grit
-  - name: Demolitions
-    desc: Blowing stuff up.
+    specialties:
+    - Social Pressure
+    - Torture Resistance
+    - Work Pressure
+  - name: Athletics
+    desc: General running, jumping, climing, etc.
+    linked_attr: Reflexes
+    specialties:
+    - Pyramid
+    - Kasta
+    - Climbing
+  - name: Throw
+    desc: Use this for general throwing and grenade throwing.
+    linked_attr: Reflexes
+    specialties:
+    - Grenade
+    - Kasta Disk
+    - Pyramid Ball
+  - name: Stealth
+    desc: Being physically sneaky.
+    linked_attr: Reflexes
+  - name: Subterfuge
+    desc: Performing acts of subterfuge.  Spy stuff that doesn't include Stealth.
     linked_attr: Wits
+  - name: Piloting
+    desc: Flying air and spacecraft.  Characters are not allowed to cross-train at
+      this time.  Search and Rescue is restricted.
+    linked_attr: Reflexes
+    specialties:
+    - Viper
+    - Raptor
+    - Predator
+    - Rhino
+    - Search And Rescue
+    - Freighter
+    - Shuttle
+    - Corvette
+    - Capital
+  - name: ECM
+    desc: Electronic countermeasures officers have these.  ECO anyone?
+    linked_attr: Wits
+  - name: Hand To Hand
+    desc: Fighting with hands, feet, and just about anything else related to the body
+    linked_attr: Reflexes
+  - name: Sm Weapons
+    desc: "(Small Weapons) Daggers, shivs, brass knuckles, a rock, and other found
+      pointy objects"
+    linked_attr: Reflexes
+    specialties:
+    - Baton
+    - Found Object
+    - Knife
+    - Improvised Weapons
+  - name: Prim Weapons
+    desc: "(Primitive Weapons) Swords, staffs, bayonets, spears, etc"
+    linked_attr: Reflexes
+    specialties:
+    - Broadsword
+    - Epee
+    - Foil
+    - Sabre
+    - Rapier
+    - Cutlass
+    - Short Sword
+    - Bayonette
+    - Spear Or Harpoon
+    - Staff
+    - Cane
+    - Branch
+    - Recurve Bow
+    - Longbow
+    - Compound Bow
+    - Crossbow
+    - Whip
+  - name: Driving
+    desc: Driving things, all kinds of things.
+    linked_attr: Grit
+    specialties:
+    - Trucks
+    - Motorcycles
+    - Armored Vehicles
+    - Motorboats
+    - Sailing
   - name: Firearms
-    desc: Shooting guns.
+    desc: Shooting guns
     linked_attr: Reflexes
+    specialties:
+    - Handgun Or Sidearm
+    - Shotgun
+    - Battle Rifle
+    - Marksman Rifle
+    - Hunting Rifle
   - name: Gunnery
-    desc: Vehicle/special weapons (cannons, rockets/missiles, ECM packages).
-    linked_attr: Reflexes
+    desc: Vehicle/special weapons (cannons, launchers, turrets).
+    linked_attr: Brawn
+    specialties:
+    - Dogfighting
+    - Wing Weapons Wystems
+    - Turret Or Door Gun
+    - Artillery
+    - Armored Vehicle
+    - Tank
+    - Machine Gun
+    - Grenade Launcher
+    - Heavy weapon
+  - name: Demolitions
+    desc: Blowing stuff up, disarming both explosives and traps, breaching, etc.  This
+      is a restricted skill.  It is not for throwing grenades.  Everyone but the following
+      must set this to Incapable.  EODs, Combat Engineers, and SF Marines, please
+      see what you make take at http://45.79.91.11/wiki/policy:cg-walkthrough#restricted-action-skills.
+    linked_attr: Wits
   - name: Medicine
-    desc: Tending to the ill and injured.
+    desc: Tending to the ill and injured.  There is no First Aid skill.  All medical
+      personnel are expected to check a specialty to help give context to where their
+      primary skills lie.  Additional intermediate or lower training that is being
+      pursued may be indicated in a player\'s hooks as befitting their personal plot.  Note
+      - Corpsmen bunk and go on missions with the marine platoons in which they are
+      embedded.
     linked_attr: Wits
     specialties:
     - Doctor
     - Surgeon
     - Nurse
-    - Medic
-    - Other
-  - name: Melee
-    desc: Fighting with fists, knives, and hand-to-hand weapons.
-    linked_attr: Brawn
-  - name: Piloting
-    desc: Flying air and spacecraft.
-    linked_attr: Reflexes
+    - Corpsman
+    - Psychiatrist
+  - name: Research
+    desc: How good is your character at looking into things.  This is pretty broad
+      and can be applied to research, investigation, etc.
+    linked_attr: Wits
+    specialties:
+    - Mechanical Engineering
+    - Electrical Engineering
+    - Archeology
+    - Theology
+    - Astrophysics
+    - Software
+    - Hacking
+    - Chemical Engineering
+    - Aerospace Engineering
+  - name: Design
+    desc: Designing new things like prototype design (drugs, vehicles, etc).  May
+      require the help of Repair specialists to get something real though.
+    linked_attr: Wits - Hacking - Software - Mechanical Engineering - Electrical Engineering
+      - Architectural Engineering - Munitions
+  - name: Repair
+    desc: Repair and Design are both demanding fields.  Repair can also include manufacturing,
+      fabrication, etc if it suits the PC's background.  Tinkerer is a style of Repair.  For
+      instance, a Tinkerer might cobble together disparate parts.
+    linked_attr: Wits
     specialties:
     - Viper
     - Raptor
-    - Freighter
-    - Other
-  - name: Stealth
-    desc: Being sneaky.
-    linked_attr: Reflexes
+    - Predator
+    - Capital Ship Systems
+    - Captial Ship Drives
+    - Tinkerer
   - name: Technician
-    desc: General mechanics/electronics and fixing things.
+    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
+    linked_attr: Wits
+  - name: Melee
+    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
+    linked_attr: Brawn
+  - name: First Aid
+    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
     linked_attr: Wits
   action_skills_blurb: |-
     Action Skills represent your ability in areas deemed important for gameplay and are likely to get called in pertinent GMed scenes.
