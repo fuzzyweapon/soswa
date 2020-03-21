@@ -21,6 +21,7 @@ website:
   - cg:*
   - template:*
   - include:*
+  - test:*
   sitemap_update_cron:
     hour:
     - 2

@@ -61,11 +61,11 @@ demographics:
         Cylon: Your public allegaince is to the cylons.  Currently not open for CG.
         Other: Do not set unless you have been instructed by staff.
     Faction:
-      desc: Faction within the group with which you have public allegiance
+      desc: Faction within the group which you are in
       wiki: ''
       values:
-        Navy: Air and space flight, combat, aka all operation.
-        Marines: Ground forces and key ship boarding defense.
+        Navy: A member of the Navy.
+        Marines: A member of the Marine Corps.
     Department:
       desc: Typically military based departments.  NCOs are typically allowed and
         appointed to departments that only have enlisted.  Ask Staff when in doubt!
