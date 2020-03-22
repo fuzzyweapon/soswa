@@ -1,7 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Tomorrow&display=swap');
 
-body {
-  font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+div.site-title {
+    /*font-family: 'Cutive Mono', monospace, 'Courier Prime', monospace, 'Space Mono', monospace, 'Roboto Mono', monospace;*/
+    font-family: 'Cutive Mono', monospace;
+    /*font-family: 'Courier Prime', monospace;*/
+    /*font-family: 'Space Mono', monospace;*/
+
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+
+#aar {
+    text-align: center;
+    font-size:  1em;
+}
+
+#arr h2 {
+    font-size:  3em;
+    text-align: center;
+}
+
+#aar h3 {
+    font-size: 4em;
+}
+
+#aar h4 {
+}
+
+#aar h5 {
+}
+
+#aar body {
+}
+
+#cutive-mono {
+    font-family: 'Cutive Mono', monospace;
+}
+
+#courier-prime {
+    font-family: 'Courier Mono', monospace;
+}
+
+#space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+#roboto-mono {
+    font-family: 'Roboto Mono', monospace;
 }
 
 $darker-background:#444;
@@ -10,93 +55,93 @@ $dark-border: #6b6b6b;
 $text-on-dark: #ccc;
 
 blockquote {
-  background-color: #483D8B
+    background-color: #483D8B;
 }
 
-.log-box, 
+.log-box,
 .profile-box,
 ul.dropdown-menu,
-.nav > li > a:hover, 
+.nav > li > a:hover,
 .nav > li > a:focus,
-.nav .open > a, 
-.nav .open > a:hover, 
-.nav .open > a:focus 
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus
 .nav .open > a,
 .ember-power-select-search,
 .table-striped > tbody > tr:nth-of-type(odd),
 button {
- background-color: $darker-background;
+    background-color: $darker-background;
 }
 
 .dropdown-menu > li > a {
-  color: $text-on-dark;
-  background-color: $darker-background;
+    color: $text-on-dark;
+    background-color: $darker-background;
 }
 
 .ember-basic-dropdown-trigger,
 .ember-power-select-option,
 .ember-power-select-dropdown.ember-basic-dropdown-content {
-  background-color: $darker-background;
-  color: $text-on-dark;
-  border-color: $dark-border;
+    background-color: $darker-background;
+    color: $text-on-dark;
+    border-color: $dark-border;
 }
 
 .ember-power-select-option[aria-current="true"],
 .ember-power-select-option[aria-selected="true"] {
-  color: $darker-background;
+    color: $darker-background;
 }
 
 .markdown-editor,
 .fs3-divider {
-  background-color: $dark-background;
+    background-color: $dark-background;
 }
 
 .btn-default {
-  background-color: $darker-background;
-  border-color: $darker-background;
-  color: $text-on-dark;
+    background-color: $darker-background;
+    border-color: $darker-background;
+    color: $text-on-dark;
 }
 
 textarea, input {
-  background-color: $darker-background;
-  border: 1px solid $dark-border;
+    background-color: $darker-background;
+    border: 1px solid $dark-border;
 }
 
 .alert-info {
-  background-color: #21759e;
-  border-color: #21759e;
-  color: $text-on-dark;
+    background-color: #21759e;
+    border-color: #21759e;
+    color: $text-on-dark;
 }
 
 .alert-success {
-  background-color: #4d8834;
-  border-color: #4d8834;
-  color: $text-on-dark;
+    background-color: #4d8834;
+    border-color: #4d8834;
+    color: $text-on-dark;
 }
 
 .btn-success {
-  background-color: #327332;
-  border-color: #2e692e;
+    background-color: #327332;
+    border-color: #2e692e;
 }
 
 .panel-default > .panel-heading {
-  background-color: $darker-background;
-  border-color: $darker-background;
-  color: $text-on-dark;
+    background-color: $darker-background;
+    border-color: $darker-background;
+    color: $text-on-dark;
 }
 
 .nav-tabs,
-.nav-tabs>li>a, 
+.nav-tabs>li>a,
 .nav-tabs > li.active > a {
-  border-color: $dark-border;
-  
+    border-color: $dark-border;
+
 }
 
-.nav-tabs>li>a:hover, 
+.nav-tabs>li>a:hover,
 .nav-tabs>li>a:focus,
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li.active > a:focus { 
-  border-color: $dark-border;
-  background-color: #ccc;
-  color: #fff;
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-color: $dark-border;
+    background-color: #ccc;
+    color: #fff;
 }
