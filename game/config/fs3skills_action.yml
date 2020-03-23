@@ -169,15 +169,6 @@ fs3skills:
     - Capital Ship Systems
     - Captial Ship Drives
     - Tinkerer
-  - name: Technician
-    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
-    linked_attr: Wits
-  - name: Melee
-    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
-    linked_attr: Brawn
-  - name: First Aid
-    desc: DO NOT TAKE POINTS IN THIS OR YOUR APP WILL BE REJECTED
-    linked_attr: Wits
   action_skills_blurb: |-
     Action Skills represent your ability in areas deemed important for gameplay and are likely to get called in pertinent GMed scenes.
     Action Skills are rated from 0-8, but some games limit the highest and lowest ratings. Only a few actually affect combat.
