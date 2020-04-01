@@ -4,3 +4,4 @@ custom:
     custom:
       shortcuts:
         js: jobs
+  alias_format: "%{name} (%{alias})"

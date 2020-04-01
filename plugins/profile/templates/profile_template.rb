@@ -23,7 +23,7 @@ module AresMUSH
       end
 
       def name
-        Demographics.name_and_nickname(@char)
+        Demographics.name_and_alias(@char)
       end
       
       def age
