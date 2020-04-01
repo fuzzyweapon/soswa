@@ -4,6 +4,6 @@ compliments:
     gave_comps:
       type: comp
       message: Gave %{count} compliments.
-  comp_scenes: true
+  comp_scenes: false
   give_luck: false
   luck_amount: 0.05

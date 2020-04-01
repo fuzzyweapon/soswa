@@ -1,4 +1,7 @@
+---
 server:
+    bind_address: ''
+     
     hostname: so-say-we-all.com
 
     port: 9000

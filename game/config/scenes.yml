@@ -11,6 +11,7 @@ scenes:
   idle_scene_timeout_days: 4
   include_pose_separator: true
   ooc_color: "%xc"
+  related_scenes_filter_days: 14
   room_cleanup_cron:
     minute:
     - 15
@@ -20,6 +21,8 @@ scenes:
   - Event
   - Vignette
   - Flashback
+  - Journal
+  - AAR
   shortcuts:
     scenes: scene
     scene/close: scene/stop

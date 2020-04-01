@@ -14,3 +14,7 @@ events:
     events: event
     event/add: event/create
     event/remove: event/delete
+    event/a: event/create
+    event/r: event/delete
+    event/rm: event/delete
+    evt: event

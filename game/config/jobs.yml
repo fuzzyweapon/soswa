@@ -3,6 +3,7 @@ jobs:
   active_statuses:
   - NEW
   - OPEN
+  - IN PROGRESS
   archive_cron:
     hour:
     - 4
@@ -10,23 +11,71 @@ jobs:
     - 18
     day_of_week:
     - Sun
-  archive_job_days: 30
+  archive_job_days: 7
   archived_status: ARCHIVED
   closed_statuses:
   - DONE
   - ARCHIVED
   - BACKLOG
+  - DUPE
+  - DO NOT DO
+  - BY DESIGN
   default_status: NEW
   open_status: OPEN
   request_category: REQ
   shortcuts:
+    j: job
     jobs: job
+    job/delcomment: job/deletereply
+    job/delcmt: job/deletereply
+    job/dcmt: job/deletereply
+    job/dc: job/deletereply
+    job/drep: job/deletereply
+    job/dr: job/deletereply
+    job/rmcomment: job/deletereply
+    job/rmreply: job/deletereply
+    job/rmrep: job/deletereply
+    job/rmr: job/deletereply
+    job/rcomment: job/deletereply
+    job/removecomment: job/deletereply
+    job/rmcmt: job/deletereply
+    job/rcmt: job/deletereply
+    job/rc: job/deletereply
+    job/rr: job/deletereply
+    job/remr: job/deletereply
+    job/removereply: job/deletereply
+    job/fm: jobs/mine
+    job/h: job/handle
+    job/take: job/handle
+    job/t: job/handle
+    job/fa: jobs/active
+    job/a: jobs/active
+    job/act: jobs/active
+    job/f: jobs/all
+    job/fu: job/filter unread
+    job/fur: job/filter unread
+    job/fun: job/filter unread
+    job/m: jobs/mine
+    job/cmt: job/respond
+    job/acmt: job/discuss
+    job/comment: job/respond
+    job/acomment: job/discuss
+    job/c: job/create
+    job/open: job/create
+    job/reply: job/respond
+    job/rep: job/respond
+    job/r: job/respond
+    job/areply: job/discuss
+    job/arep: job/discuss
+    job/ar: job/discuss
+    job/adiscuss: job/discuss
+    job/discuss: job/respond
+    job/stat: job/status
+    job/st: job/status
+    job/s: job/status
     requests: request
     request/comment: request/respond
-    job/comment: job/discuss
     job/submit: job/create
-    job/reply: job/respond
-    job/open: job/handle
     job/mine: job/filter mine
     job/active: job/filter active
     job/all: job/filter all
@@ -42,11 +91,23 @@ jobs:
       color: "%x246"
     OPEN:
       color: "%xb"
+    IN PROGRESS:
+      color: "%xhg"
     HOLD:
       color: "%xx%xh"
     DONE:
       color: "%xy"
+    DUPE:
+      color: "%xx%xh"
     ARCHIVED:
       color: "%xx%xh"
+    DO NOT DO:
+      color: "%xx%xh"
+    BY DESIGN:
+      color: "%xx%xh"
+  status_filters:
+    PLANNING:
+    - OPEN
+    - BACKLOG
   system_category: SYS
   trouble_category: ALERT

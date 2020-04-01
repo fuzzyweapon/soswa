@@ -22,6 +22,7 @@ website:
   - template:*
   - include:*
   - test:*
+  - doc:*
   sitemap_update_cron:
     hour:
     - 2
@@ -210,7 +211,7 @@ website:
       route: jobs
     - title: Account
       route: account
-    - title: Game Admin
+    - title: Game Staff
       route: admins
     - divider: true
     - title: Game Help
@@ -218,6 +219,8 @@ website:
     - id: markdown
       title: Markdown Reference
       route: help-topic
+    - title: Emoji Reference
+      route: emoji
     - title: Terms of Service
       route: tos
     - divider: true

@@ -1,5 +1,12 @@
 ---
 forum:
+  achievements:
+    forum_reply:
+      type: community
+      message: Replied to a forum post.
+    forum_post:
+      type: community
+      message: Created a forum post.
   shortcuts:
     bbs: forum
     bbread: forum
@@ -21,10 +28,3 @@ forum:
     bbs/desc: forum/describe
     bbs/newgroup: forum/createcat
     bb/new: forum/new
-  achievements:
-    forum_reply:
-      type: community
-      message: Replied to a forum post.
-    forum_post:
-      type: community
-      message: Created a forum post.

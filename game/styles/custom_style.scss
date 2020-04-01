@@ -10,6 +10,20 @@ div.site-title {
     /*font-family: 'Roboto Mono', monospace;*/
 }
 
+.admin-only-reply, .admin-only-reply .markdown-editor {
+    background-color: #3c3c3c;
+}
+
+.code {
+    padding: 1px 5px;
+}
+
+.toc {
+    background-color: #333333;
+    border-color: #333333;
+    box-shadow: 5px 5px 5px #375656;
+}
+
 #aar {
     text-align: center;
     font-size:  1em;

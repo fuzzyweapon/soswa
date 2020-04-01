@@ -8,10 +8,20 @@ describe:
   shortcuts:
     l: look
     desc: describe
+    of: outfit
     outfits: outfit
+    outfits/c: outfit/set
+    outfits/a: outfit/set
+    outfits/r: outfit/delete
+    outfits/rm: outfit/delete
     outfit/create: outfit/set
     outfit/add: outfit/set
     outfit/remove: outfit/delete
+    det: detail
+    detail/a: detail/set
+    detail/c: detail/set
+    detail/r: detail/delete
+    detail/rm: detail/delete
     detail/add: detail/set
     detail/create: detail/set
     detail/remove: detail/delete
@@ -19,10 +29,18 @@ describe:
     view/create: detail/set
     view/remove: detail/delete
     view: look
+    view/a: detail/set
+    view/c: detail/set
+    view/r: detail/delete
+    view/rm: detail/delete
     vistas: vista
     vista/add: vista/set
     vista/create: vista/set
     vista/remove: vista/delete
+    vista/a: vista/set
+    vista/c: vista/set
+    vista/r: vista/delete
+    vista/rm: vista/delete
   tag_colors:
     admin: "%xg"
     beginner: "%xb"

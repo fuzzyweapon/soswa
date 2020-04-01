@@ -3,8 +3,8 @@ login:
   activity_cron:
     minute:
     - 0
-  allow_creation: true
-  allow_web_registration: true
+  allow_creation: false
+  allow_web_registration: false
   blacklist_cron:
     day:
     - 1
@@ -14,8 +14,8 @@ login:
     minute:
     - 0
   creation_not_allowed_message: Humans and synthetic life by invite only.
-  guest_disabled_message: ''
-  guest_role: centurion
+  guest_disabled_message: No gawkers allowed.
+  guest_role: guest
   login_not_allowed_message: The galaxy is taking a break.  After these messages,
     we\
   notice_cleanup_cron:
@@ -26,7 +26,7 @@ login:
     minute:
     - 19
   notice_timeout_days: 60
-  portal_requires_registration: 
+  portal_requires_registration: false
   shortcuts:
     logout: quit
     con: connect

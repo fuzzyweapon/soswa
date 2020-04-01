@@ -2,7 +2,7 @@
 fs3skills:
   action_skills:
   - name: Alertness
-    desc: Noticing things and being aware of your surroundings.
+    desc: Noticing things and being aware of the surroundings.
     linked_attr: Perception
     specialties:
     - Visual Space
@@ -18,14 +18,14 @@ fs3skills:
     - Torture Resistance
     - Work Pressure
   - name: Athletics
-    desc: General running, jumping, climing, etc.
+    desc: General running, jumping, climbing, etc.
     linked_attr: Reflexes
     specialties:
     - Pyramid
     - Kasta
     - Climbing
   - name: Throw
-    desc: Use this for general throwing and grenade throwing.
+    desc: Use this for grenade and general throwing activities.
     linked_attr: Reflexes
     specialties:
     - Grenade
@@ -55,11 +55,11 @@ fs3skills:
     desc: Electronic countermeasures officers have these.  ECO anyone?
     linked_attr: Wits
   - name: Hand To Hand
-    desc: Fighting with hands, feet, and just about anything else related to the body
+    desc: Fighting with hands, feet, and just about anything else related to the body.
     linked_attr: Reflexes
   - name: Sm Weapons
-    desc: "(Small Weapons) Daggers, shivs, brass knuckles, a rock, and other found
-      pointy objects"
+    desc: "(Small Weapons) daggers, shivs, brass knuckles, a rock, and other found
+      objects."
     linked_attr: Reflexes
     specialties:
     - Baton
@@ -67,7 +67,7 @@ fs3skills:
     - Knife
     - Improvised Weapons
   - name: Prim Weapons
-    desc: "(Primitive Weapons) Swords, staffs, bayonets, spears, etc"
+    desc: "(Primitive Weapons) swords, staffs, bayonets, spears, etc."
     linked_attr: Reflexes
     specialties:
     - Broadsword
@@ -97,7 +97,7 @@ fs3skills:
     - Motorboats
     - Sailing
   - name: Firearms
-    desc: Shooting guns
+    desc: Shooting guns.
     linked_attr: Reflexes
     specialties:
     - Handgun Or Sidearm
@@ -119,24 +119,52 @@ fs3skills:
     - Grenade Launcher
     - Heavy weapon
   - name: Demolitions
-    desc: Blowing stuff up, disarming both explosives and traps, breaching, etc.  This
-      is a restricted skill.  It is not for throwing grenades.  Everyone but the following
-      must set this to Incapable.  EODs, Combat Engineers, and SF Marines, please
-      see what you make take at http://45.79.91.11/wiki/policy:cg-walkthrough#restricted-action-skills.
+    desc: |-
+      This is a restricted skill.  For throwing grenades, see the Throwing
+      skill.
+
+      Everyone but Combat Engineers, SF, and EODs must set this skill to
+      0/Incapable. To find details on skill limitations for Combat Engineers,
+      SF, and EODs, see
+
+      http://www.so-say-we-all.com/wiki/cg:cg-walkthrough#restricted-action-skills
+
+      Note:  SF can essentially do what Combat Engineers can but in more
+      challenging operations.
     linked_attr: Wits
+    specialties:
+    - Adv Breaching
+    - Adv Negotiation
+    - Adv Exotic
+    - Adv Improvised
+    - Adv Homemade
+    - Adv Traps
+    - Adv EVA Ordnance
+    - Adv EVA Combat
+    - Adv Diving Ordnance
+    - Adv Diving Combat
+    - Adv Robotic Operation
+    - Adv Robotic Maintenance
+    - Bomb Dog Training
+    - Bomb Dog Handling
+  - name: First Aid
+    desc: |-
+      Tending to people in the field.  Typically medical disciplines that do not require a
+      doctorate are stronger in this skill.
+
+      Note - Corpsmen bunk and go on missions with the marine platoons in which they are embedded.
+    linked_attr: Wits
+    specialties:
+    - Corpsman
+    - Nurse
+    - Orderly
   - name: Medicine
-    desc: Tending to the ill and injured.  There is no First Aid skill.  All medical
-      personnel are expected to check a specialty to help give context to where their
-      primary skills lie.  Additional intermediate or lower training that is being
-      pursued may be indicated in a player\'s hooks as befitting their personal plot.  Note
-      - Corpsmen bunk and go on missions with the marine platoons in which they are
-      embedded.
+    desc: Tending to the ill and injured.  Medical disciplines that require a doctorate
+      are stronger in this skill.
     linked_attr: Wits
     specialties:
     - Doctor
     - Surgeon
-    - Nurse
-    - Corpsman
     - Psychiatrist
   - name: Research
     desc: How good is your character at looking into things.  This is pretty broad
@@ -152,24 +180,46 @@ fs3skills:
     - Hacking
     - Chemical Engineering
     - Aerospace Engineering
+    - Aeronautical Engineering
+    - Pharmaceutical Manufacturing
+    - Materials Engineering
   - name: Design
     desc: Designing new things like prototype design (drugs, vehicles, etc).  May
       require the help of Repair specialists to get something real though.
-    linked_attr: Wits - Hacking - Software - Mechanical Engineering - Electrical Engineering
-      - Architectural Engineering - Munitions
+    linked_attr: Wits
+    specialties:
+    - Hacking
+    - Software
+    - Munitions
+    - Mechanical Engineering
+    - Electrical Engineering
+    - Chemical Engineering
+    - Materials Engineering
+    - Aeronautical Engineering
+    - Aerospace Engineering
+    - Architectural Engineering
   - name: Repair
-    desc: Repair and Design are both demanding fields.  Repair can also include manufacturing,
-      fabrication, etc if it suits the PC's background.  Tinkerer is a style of Repair.  For
-      instance, a Tinkerer might cobble together disparate parts.
+    desc: "-| Repair and Design are both demanding fields.  Repair can also include
+      manufacturing, fabrication, etc if it suits the PC's background.  Tinkerer is
+      a style of Repair.  For instance, a Tinkerer might cobble together disparate
+      parts.  Characters that work on weapons systems for fighters or capital ships
+      are allowed to take various non-descript specialties such as Weapons Systems,
+      only applying it to their area."
     linked_attr: Wits
     specialties:
     - Viper
     - Raptor
     - Predator
+    - Weapons Systems
+    - Communications Systems
+    - Power Systems
+    - Life Support Systems
     - Capital Ship Systems
     - Captial Ship Drives
     - Tinkerer
   action_skills_blurb: |-
-    Action Skills represent your ability in areas deemed important for gameplay and are likely to get called in pertinent GMed scenes.
-    Action Skills are rated from 0-8, but some games limit the highest and lowest ratings. Only a few actually affect combat.
-    See <a href="https://aresmush.com/fs3/fs3-3/chargen.html#action-skills" target="_blank">FS3: Action Skills</a> for details.
+    Action Skills represent your ability in areas deemed important for gameplay and are likely to
+    get called in pertinent GMed scenes.  Action Skills are rated from 0-8, but some games limit the
+    highest and lowest ratings. Only a few actually affect combat.  See
+    <a href="https://aresmush.com/fs3/fs3-3/chargen.html#action-skills" target="_blank">FS3: Action Skills</a>
+    for details.

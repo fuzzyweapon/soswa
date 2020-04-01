@@ -239,7 +239,7 @@ fs3combat:
       init_mod: 0
     Club:
       description: Mace/club/baton
-      skill: Melee
+      skill: Sm Weapons
       lethality: -10
       penetration: 0
       weapon_type: Melee
@@ -251,7 +251,7 @@ fs3combat:
       init_mod: 0
     Knife:
       description: Knife
-      skill: Melee
+      skill: Sm Weapons
       lethality: -5
       penetration: 4
       weapon_type: Melee
@@ -331,7 +331,7 @@ fs3combat:
     85mm Flak:
       description: Flak cannons
       skill: Gunnery
-      lethality: 1
+      lethality: 10
       penetration: 8
       weapon_type: Explosive
       is_automatic: false

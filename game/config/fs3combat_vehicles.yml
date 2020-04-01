@@ -10,7 +10,7 @@ fs3combat:
       weapons:
       - Kew
       - Sidewinder
-      dodge: 1
+      dodge: 2
     Raider:
       description: Cylon Raider space fighter
       pilot_skill: Piloting
@@ -21,11 +21,11 @@ fs3combat:
       - Kew
       - Missile
       - Nuke
-      dodge: 1
+      dodge: 2
     Raptor:
       description: Raptor Multi-mission Vehicle
       pilot_skill: Piloting
-      toughness: 3
+      toughness: 2
       hitloc_chart: Transport
       armor: Raptor
       weapons:
@@ -37,7 +37,7 @@ fs3combat:
       - 762 Minigun
       - Hmg
       - Maverick
-      dodge: 0
+      dodge: 1
     Heavy Raider:
       description: Cylon Heavy Raider space transport/bomber
       pilot_skill: Piloting
@@ -48,19 +48,19 @@ fs3combat:
       - Missile
       - Kew
       - Rocket
-      dodge: 0
+      dodge: 1
     Tank:
       description: Ground battle tank.
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 3
       hitloc_chart: Tank
       armor: Tank
       weapons:
       - Cannon
-      dodge: 0
+      dodge: -2
     Apc:
       description: Armored troop transport.
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 2
       hitloc_chart: Tank
       armor: Apc
@@ -69,16 +69,16 @@ fs3combat:
       dodge: 0
     Truck:
       description: Unarmored truck
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 0
       hitloc_chart: Truck
       armor: Truck
       weapons:
       - Unarmed
-      dodge: 0
+      dodge: 1
     Aa Battery:
       description: Anti-Aircraft Battery
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: -2
       hitloc_chart: Aa Battery
       armor: Aa Battery
@@ -86,7 +86,7 @@ fs3combat:
       - Missile
       - 85mm Flak
       - 762 Minigun
-      dodge: 0
+      dodge: -3
     Predator:
       description: Predator Strike Craft
       pilot_skill: Piloting
@@ -100,10 +100,11 @@ fs3combat:
       - Bombcrack cluster
       - Maverick
       - HARM
-      dodge: 3
+      dodge: 1
     Rhino:
       description: Rhino heavy lift, gunship, and transport
       pilot_skill: Piloting
+      toughness: 3
       hitloc_chart: Transport
       armor: Rhino
       weapons:
@@ -117,7 +118,7 @@ fs3combat:
       dodge: -2
     Carballa:
       description: M6A18 Main Battle Tank. Last gen.
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 3
       hitloc_chart: Tank
       armor: Carballa
@@ -125,10 +126,10 @@ fs3combat:
       - 120mm Gun
       - Hmg
       - Lmg
-      dodge: 0
+      dodge: -2
     Rapier:
       description: Armored recon vehicle. No transport.
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 1
       hitloc_chart: Tank
       armor: Apc
@@ -138,7 +139,7 @@ fs3combat:
       dodge: 1
     Samnite:
       description: Armored Infantry Fighting Vehicle. 5 passengers.
-      pilot_skill: Piloting
+      pilot_skill: Driving
       toughness: 2
       hitloc_chart: Tank
       armor: Apc
