@@ -31,8 +31,8 @@ Ares also supports MUX-style mail composition, which lets you write your mail in
 
 ## Replying to Mail
 
-`mail/reply <message>` - Replies to the last message you read.
 `mail/reply <#>=<message>` - Replies to a message.
+`mail/replyall <#>=<message>` - Replies to everyone on the last message you read.
 
 > **Tip:** If you omit the number, it replies to the last message you read (handy if using mail/new).
 
