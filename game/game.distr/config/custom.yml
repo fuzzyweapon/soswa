@@ -1,3 +1,4 @@
 ---
 custom:
   shortcuts: {}
+  alias_format: "%{name} (%{alias})"
