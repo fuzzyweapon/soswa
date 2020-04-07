@@ -58,6 +58,7 @@ module AresMUSH
             client.emit_success t('demographics.group_cleared', :group => self.group_name)
           else
             client.emit_success t('demographics.group_set', :group => self.group_name, :value => self.value)
+            client.emit_success t('demographics.group_set_discord_reminder')
           end
         end
       end
