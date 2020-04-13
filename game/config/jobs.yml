@@ -92,7 +92,7 @@ jobs:
     OPEN:
       color: "%xb"
     IN PROGRESS:
-      color: "%xhg"
+      color: "%xg"
     HOLD:
       color: "%xx%xh"
     DONE:
