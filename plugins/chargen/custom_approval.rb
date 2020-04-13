@@ -19,7 +19,7 @@ module AresMUSH
       if department == "Command"
         department = "Tactical"
       end
-      department_hyphen = department.sub(" ", "-")
+      department.nil? ? department_hyphen = "" : department_hyphen = department.sub(" ", "-")
 
       role = Role.find_one_by_name(department_hyphen)
       channel = Channel.find_one_by_name(department)
