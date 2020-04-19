@@ -38,6 +38,7 @@ website:
     - title: CG Walkthrough
       route: wiki-page
       id: cg:cg-walkthrough
+    - divider: true
     - title: Policies
       route: wiki-page
       id: policy:policies
