@@ -32,9 +32,9 @@ fs3combat:
       defense_skill: Reflexes
     Aa:
       weapon: Missile
-      armor: Centurion
+      armor: Aa Battery
       vehicle: Aa Battery
-      hitloc: Humanoid
+      hitloc: Tank
       defense_skill: Reflexes
     Cylon:
       weapon: Pistol
@@ -60,6 +60,50 @@ fs3combat:
     Target:
       hitloc: Target
       weapon: Unarmed
+    Tank:
+      weapon: Cannon
+      armor: Tank
+      vehicle: Tank
+      hitloc: Tank
+      defense_skill: Driving
+    Apc:
+      weapon: HMG
+      armor: Apc
+      vehicle: Tank
+      hitloc: Tank
+      defense_skill: Driving
+    Truck:
+      weapon: Unarmed
+      armor: Truck
+      vehicle: Truck
+      hitloc: Truck
+      defense_skill: Driving
+    Predator:
+      vehicle: Predator
+      hitloc: Fighter
+      defense_skill: Piloting
+    Rhino:
+      vehicle: Rhino
+      hitloc: Transport
+      defense_skill: Piloting
+    Carballa:
+      weapon: 120mm Main
+      armor: Carballa
+      vehicle: Carballa
+      hitloc: Tank
+      defense_skill: Driving
+    Rapier:
+      weapon: 30mm HVC
+      armor: Apc
+      vehicle: Rapier
+      hitloc: Tank
+      defense_skill: Driving
+    Samnite:
+      weapon: 20mm CG
+      armor: Apc
+      vehicle: Samnite
+      hitloc: Tank
+      defense_skill: Driving
   default_type: Soldier
   shortcuts:
     combat/skill: combat/summary
@@ -90,8 +134,8 @@ fs3combat:
       attack_mod: -4
       defense_mod: 4
     Cover:
-      attack_mod: 0
-      defense_mod: 0
+      attack_mod: -1
+      defense_mod: 1
     Hidden:
       attack_mod: 0
       defense_mod: 0
