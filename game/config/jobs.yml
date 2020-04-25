@@ -73,6 +73,8 @@ jobs:
     job/stat: job/status
     job/st: job/status
     job/s: job/status
+    job/del: job/delete
+    job/d: job/delete
     requests: request
     request/comment: request/respond
     job/submit: job/create
