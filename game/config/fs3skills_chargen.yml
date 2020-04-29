@@ -37,7 +37,7 @@ fs3skills:
           Medicine: 1
           Standard: 3
   unusual_skills:
-  - Scorpian
-  - Sagittaran
-  - Gemenese
   - Demolitions
+  - Medicine
+  - Design
+  - First Aid
