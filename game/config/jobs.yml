@@ -84,6 +84,20 @@ jobs:
     job/unread: job/filter unread
     job/deletecomment: job/deletereply
     job/category: job/cat
+    job/addpart: job/addparticipant
+    job/addp: job/addparticipant
+    job/apart: job/addparticipant
+    job/ap: job/addparticipant
+    job/removepart: job/removeparticipant
+    job/remparticipant: job/removeparticipant
+    job/rempart: job/removeparticipant
+    job/remp: job/removeparticipant
+    job/rmparticipant: job/removeparticipant
+    job/rmpart: job/removeparticipant
+    job/rmp: job/removeparticipant
+    job/rparticipant: job/removeparticipant
+    job/rpart: job/removeparticipant
+    job/rp: job/removeparticipant
     request/all: request/filter all
     request/active: request/filter active
   status:
