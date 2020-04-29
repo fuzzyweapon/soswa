@@ -135,5 +135,7 @@ jobs:
     - DO NOT DO
     - BY DESIGN
     - NOT A BUG
+    TRIAGE:
+    - NEW
   system_category: SYS
   trouble_category: ALERT
