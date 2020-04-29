@@ -128,5 +128,12 @@ jobs:
     PLANNING:
     - OPEN
     - BACKLOG
+    CLOSED:
+    - DONE
+    - DUPE
+    - ARCHIVED
+    - DO NOT DO
+    - BY DESIGN
+    - NOT A BUG
   system_category: SYS
   trouble_category: ALERT
