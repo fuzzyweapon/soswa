@@ -20,6 +20,7 @@ jobs:
   - DUPE
   - DO NOT DO
   - BY DESIGN
+  - NOT A BUG
   default_status: NEW
   open_status: OPEN
   request_category: REQ
@@ -120,6 +121,8 @@ jobs:
     DO NOT DO:
       color: "%xx%xh"
     BY DESIGN:
+      color: "%xx%xh"
+    NOT A BUG:
       color: "%xx%xh"
   status_filters:
     PLANNING:
