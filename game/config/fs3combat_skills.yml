@@ -3,6 +3,7 @@ fs3combat:
   composure_skill: Composure
   default_defense_skill: Reflexes
   healing_skill: Medicine
+  healing_skill_patient_ratio: 0.75
   initiative_skill: Alertness
   recovery_skill: Brawn
   strength_skill: Brawn
