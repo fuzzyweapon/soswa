@@ -154,6 +154,8 @@ demographics:
           \nand rock climbers, and trained for extreme environments."
         Deck Crew: Navy - Air Wing air/spacecraft support and maintenance personnel.
         Prisoner: Starting - Prisoner till military.
+        Intelligence Officer: Navy/Marines - collects, compiles, and sometimes analyzes
+          information.
         Other: Any other position.
   help_text:
     played by: "%xcplayedby <actor>%xn - Your 'dream casting' for your character."
