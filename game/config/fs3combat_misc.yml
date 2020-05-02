@@ -133,8 +133,8 @@ fs3combat:
       attack_mod: -4
       defense_mod: 4
     Cover:
-      attack_mod: 0
-      defense_mod: 0
+      attack_mod: -1
+      defense_mod: 1
     Hidden:
-      attack_mod: 0
-      defense_mod: 0
+      attack_mod: -6
+      defense_mod: 6
