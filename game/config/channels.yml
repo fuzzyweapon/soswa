@@ -33,4 +33,12 @@ channels:
     delcom: channel/leave
     comtitle: channel/title
     channel/name: channel/rename
+    channel/ac: channel/addchar
+    channel/addcharacter: channel/addchar
+    channel/rc: channel/removechar
+    channel/removecharacter: channel/removechar
+    channel/remcharacter: channel/removechar
+    channel/rmcharacter: channel/removechar
+    channel/remchar: channel/removechar
+    channel/rmchar: channel/removechar
   start_marker: "<"
