@@ -10,6 +10,6 @@ utils:
     note/update: note/add
     die: dice
     notes: note
-    i: echo %% There's some lint in your pocket.
-    in: echo %% There's some lint in your pocket.
-    inv: echo %% There's some lint in your pocket.
+    i: echo %% There appears to be some lint in your pocket.
+    in: echo %% There appears to be some lint in your pocket.
+    inv: echo %% There appears to be some lint in your pocket.
