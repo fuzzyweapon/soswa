@@ -6,7 +6,7 @@ cookies:
       message: Gave a drink.
     cookie_received:
       type: community
-      message: Received %{count} drink.
+      message: Received %{count} drinks.
   cookie_award_cron:
     day_of_week:
     - Fri
@@ -14,6 +14,6 @@ cookies:
     - 22
     minute:
     - 0
-  cookie_category: Alcoholic Awards
+  cookie_category: Regulars Awards
   shortcuts:
     beer: cookie
