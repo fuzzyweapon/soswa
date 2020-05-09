@@ -205,3 +205,4 @@ demographics:
     actor: demographic/set played by=
     fullname: demographic/set full name=
     playedby: demographic/set played by=
+    demo: demographic
