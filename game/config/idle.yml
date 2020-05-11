@@ -12,9 +12,10 @@ idle:
   - staff
   - testdummy
   - tester
+  - sabbatical
   idle_warn_msg: You haven't been active awhile and your character bit is in danger
     of idling out.
-  monthly_reminder: It's time to run the idle sweep!
+  monthly_reminder: It's time to run the idle sweep! => https://aresmush.com/tutorials/manage/idle.html
   monthly_reminder_cron:
     day:
     - 30
