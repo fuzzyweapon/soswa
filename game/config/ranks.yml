@@ -8,6 +8,7 @@ ranks:
   ranks:
     Navy:
       Officer:
+        OFCR Recruit: true
         Ensign: true
         Lieutenant Jg: true
         Lieutenant: true
@@ -18,6 +19,7 @@ ranks:
         Rear Admiral: false
         Admiral: false
       Enlisted:
+        Recruit: true
         Crewman Apprentice: true
         Crewman: true
         Able Crewman: true
@@ -29,6 +31,7 @@ ranks:
         Master Chief Petty Officer: false
     Marines:
       Officer:
+        OFCR Recruit: true
         Ensign: true
         Lieutenant Jg: true
         Lieutenant: true
@@ -39,6 +42,7 @@ ranks:
         Brigadier General: false
         General: false
       Enlisted:
+        Recruit: true
         Private: true
         Private First Class: true
         Lance Corporal: true
