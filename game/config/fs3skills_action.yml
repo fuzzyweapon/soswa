@@ -37,6 +37,9 @@ fs3skills:
   - name: Subterfuge
     desc: Performing acts of subterfuge.  Spy stuff that doesn't include Stealth.
     linked_attr: Wits
+  - name: EVA
+    desc: Work outside the spacecraft.
+    linked_attr: Reflexes
   - name: Piloting
     desc: Flying air and spacecraft.  Characters are not allowed to cross-train at
       this time.  Search and Rescue is restricted.
